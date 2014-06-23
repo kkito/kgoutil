@@ -5,6 +5,9 @@ import (
 )
 
 func TestBash(t *testing.T) {
-    Bash("ls -l")
+    result := Bash("ls -l")
+    if len(result) < 10 {
+        t.Fatal("error return")
+    }
 }
 
