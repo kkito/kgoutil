@@ -3,5 +3,11 @@ kgoutil
 
 
 ## test
-Run test
+Run test:
+
     $ go test
+
+## install 
+To install:
+
+    $ go get github.com/kkito/kgoutil
